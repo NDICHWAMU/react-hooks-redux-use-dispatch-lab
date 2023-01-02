@@ -3,7 +3,9 @@ import { useSelector } from "react-redux";
 
 function Restaurants() {
   const restaurants = useSelector((state) => state.restaurants);
-console.log(restaurants);
+console.log('====================================');
+console.log();
+console.log('====================================');
   return (
     <div>
       <ul>

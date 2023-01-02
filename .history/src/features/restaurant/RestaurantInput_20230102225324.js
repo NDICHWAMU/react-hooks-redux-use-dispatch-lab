@@ -4,8 +4,8 @@ import { useDispatch} from "react-redux";
 
 
 function RestaurantInput() {
-  const [name, setName] = useState("");
-  const [location, setLocation] = useState("");
+  // const [name, setName] = useState("");
+  // const [location, setLocation] = useState("");
 
   // const [formData, setGormData]=useState({
   //   name: "",

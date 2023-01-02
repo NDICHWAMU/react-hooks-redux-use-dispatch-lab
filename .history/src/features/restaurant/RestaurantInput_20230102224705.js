@@ -7,11 +7,6 @@ function RestaurantInput() {
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
 
-  // const [formData, setGormData]=useState({
-  //   name: "",
-  //   location: "",
-  // })
-
   const dispatch = useDispatch();
 
   function handleNameChange(event) {
@@ -24,7 +19,7 @@ function RestaurantInput() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    dispatch(addRestaurant({name,location}))
+    dispatch(addRestaurant())
   }
 
   return (
@@ -45,7 +40,7 @@ function RestaurantInput() {
           placeholder="location"
         />
       </p>
-      <button type="submit" >Submit</button>
+      <button type="submit" onClick=>Submit</button>
     </form>
   );
 }
